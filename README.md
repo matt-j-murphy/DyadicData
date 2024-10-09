@@ -15,7 +15,6 @@ Variables
 * `conflict`: Daily conflict (0=no, 1=yes)
 * `relqual`: Relationship quality (0=low, 1=high RQ)
 
-
 Notes: 
 * Need to separate within-person and between-person effects of longitudinal predictors
 * Daily `intimacy` (outcome) has both within-person and between-person variability
@@ -23,8 +22,15 @@ Notes:
   * `conflcb`: Daily conflict (between) – centred at grand mean
   * `conflcw`: Daily conflict (within) – centred at person mean
 * Controlling for mean conflict allows for a pure within-person interpretation of the effect of daily conflict on daily intimacy
-  
-## Part 1
+
+Main Analyses:
+* Analyzed the data using multilevel model that specified a within-subject process of reactivity to daily conflicts that we predicted would be stronger for those in low-quality as opposed to high-quality relationships.
+
+Results Summary:
+* Fixed effects `intimacy` ~ `conflictw` by `relqual`: t(62) = 2.06, p = .044, 95% CI: [0.03, 2.00]). Women in the high-RQ group were about 1 unit (on 1-10 scale) less reactive to within-person variation in daily conflict than women in the low-RQ group.
+
+
+## Part 1: Time-Course Plots by Relationship Quality
 
 ### Time Course Plots for **Intimacy** for the *Low* Relationship Quality Group
 
@@ -41,7 +47,7 @@ Notes:
 ### Time Course Plots for **Conflict** for the *High* Relationship Quality Group
 ![HRQ Conflict Time Plot](https://github.com/matt-j-murphy/DyadicData/blob/ae22f0c67f85f99998faa61421d22d6c1fcc489b/hrq-conflict-time.png) 
 
-## Part 2: 
+## Part 2: Intimacy ~ Conflict by Relationship Quality
 
 ### **Intimacy** as a Function of **Conflict**: Raw Data and Model Predictions for the *Low* Relationship Quality Group
 
@@ -50,14 +56,4 @@ Notes:
 ### **Intimacy** as a Function of **Conflict**: Raw Data and Model Predictions for the *High* Relationship Quality Group
 
 ![HRQ Pred Panel](https://github.com/matt-j-murphy/DyadicData/blob/1de03d433a4f4963778dbdc1be85176fe022a7d9/hrq-pred-panels.png) 
-
-Spaghetti Plots for *Low* and *High* Relationship Quality Groups
-
-## Part 3: 
-
-### Panel plots for five selected IDs in *Low* RQ Group
-![LRQ Five](https://github.com/matt-j-murphy/DyadicData/blob/37675231372d0a9c15d7d660b69122cd9966280a/lrq-five.png)
-
-### Panel plots for five selected IDs in *High* RQ Group
-![HRQ Five](https://github.com/matt-j-murphy/DyadicData/blob/861b4b3a94d77dbfaf2f5a0c3e991f8ab95d61ca/hqr-five.png)
 
