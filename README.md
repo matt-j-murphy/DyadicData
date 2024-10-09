@@ -1,13 +1,19 @@
 # Dyadic Data Analysis
-
 * Daily diary reports of arguments and relational intimacy by 66 women in a cohabiting intimate relationship
 * Completed an online background questionnaire and online nightly diaries for 28 consecutive evenings
 
 Research Questions
-* What is the change in intimacy for the typical woman in the control group?
-* For the typical woman in the treatment group?
-* How much do women differ in their change within each group?
-* To what extent does the treatment improve intimacy over the entire course of treatment
+* How much do daily conflicts lower intimacy for the typical person?
+* How much do people differ in this relationship?
+* Does relationship quality (RQ) buffer conflict reactivity such that those with higher RQ are less reactive to conflict?
+
+Variables
+* `id`: Participant id
+* `time`: Diary day (0, 1, 2, . . ., 27)
+* `time7c`: Time in units of one week, centered
+* `intimacy`: Daily intimacy score (0-10)
+* `conflict`: Daily conflict (0=no, 1=yes)
+* `relqual`: Relationship quality (0=low, 1=high RQ)
 
 ## Part 1
 
@@ -28,15 +34,15 @@ Research Questions
 
 ## Part 2: 
 
-### Intimacy as a Function of Conflict: Raw Data and Model Predictions for the *Low* Relationship Quality Group
+### **Intimacy** as a Function of **Conflict**: Raw Data and Model Predictions for the *Low* Relationship Quality Group
 
 ![LRQ Pred Panel](https://github.com/matt-j-murphy/DyadicData/blob/511ce7bfbdff001ed5b648ee8cf886a5f6f76d36/lrq-pred-panels.png) 
 
-### Intimacy as a Function of Conflict: Raw Data and Model Predictions for the *High* Relationship Quality Group
+### **Intimacy** as a Function of **Conflict**: Raw Data and Model Predictions for the *High* Relationship Quality Group
 
 ![HRQ Pred Panel](https://github.com/matt-j-murphy/DyadicData/blob/1de03d433a4f4963778dbdc1be85176fe022a7d9/hrq-pred-panels.png) 
 
-Spaghetti Plots for Low and High Relationship Quality Groups
+Spaghetti Plots for *Low* and *High* Relationship Quality Groups
 
 ## Part 3: 
 
