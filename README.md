@@ -1,4 +1,5 @@
-# Dyadic Data Analysis
+# Dyadic Data Analysis -  Modeling the Causal Process of Continuous Outcomes
+
 * Daily diary reports of arguments and relational intimacy by 66 women in a cohabiting intimate relationship
 * Completed an online background questionnaire and online nightly diaries for 28 consecutive evenings
 
