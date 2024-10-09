@@ -1,12 +1,7 @@
-# Dyadic Data Analysis -  Modeling the Within-Person Process for Continuous Outcomes
+# Modeling the Within-Person Process for Continuous Outcomes
 
 * Daily diary reports of arguments and relational intimacy by 66 women in a cohabiting intimate relationship
 * Completed an online background questionnaire and online nightly diaries for 28 consecutive evenings
-
-## Research Questions
-* How much do daily conflicts lower intimacy for the typical person?
-* How much do people differ in this relationship?
-* Does relationship quality (RQ) buffer conflict reactivity such that those with higher RQ are less reactive to conflict?
 
 ## Variables
 * `id`: Participant id
@@ -15,6 +10,11 @@
 * `intimacy`: Daily intimacy score (0-10)
 * `conflict`: Daily conflict (0=no, 1=yes)
 * `relqual`: Relationship quality (0=low, 1=high RQ)
+  
+## Research Questions
+* How much do daily conflicts lower intimacy for the typical person?
+* How much do people differ in this relationship?
+* Does relationship quality (RQ) buffer conflict reactivity such that those with higher RQ are less reactive to conflict?
 
 ## Data Cleaning
 * Need to separate within-person and between-person effects of longitudinal predictors
