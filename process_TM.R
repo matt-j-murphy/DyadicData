@@ -1,12 +1,12 @@
 ############################################################################################################
-#Chapter 5 Analyses: Modeling the Causal Process of Continuous Outcomes
+Modeling the Causal Process of Continuous Outcomes
 #Note: The code assumes that the data file process.csv has been copied to your default directory
 ############################################################################################################
 
 #clear environment
 rm(list = ls())
 #set working directory 
-setwd("C:/Users/siiaz01/Desktop/ch5R/ch5R")
+setwd("...")
 
 ############################################################################################################
 #load the nlme package
@@ -49,7 +49,7 @@ process$time01 <- process$time/27
 
 ############################################################################################################
 
-#Figure 5.2: Time Course Plots for Intimacy for the Low Relationship Quality Group
+# Time Course Plots for Intimacy for the Low Relationship Quality Group
 
 pdf(file="lrq-intimacy-time.pdf", width=15, height=8)
 par(mfrow=c(4,8))
@@ -60,7 +60,7 @@ for (i in process$id[process$time==0 & process$relqual==0]){
 mtext("Low Relationship Quality", side=3, outer=TRUE, line=-1.2)
 dev.off()
 
-#Figure 5.2: Time Course Plots for Intimacy for the High Relationship Quality Group
+# Time Course Plots for Intimacy for the High Relationship Quality Group
 
 pdf(file="hrq-intimacy-time.pdf", width=15, height=10)
 par(mfrow=c(5,8))
@@ -74,7 +74,7 @@ dev.off()
 
 ############################################################################################################
 
-#Figure 5.2: Time Course Plots for Conflict for the Low Relationship Quality Group
+# Time Course Plots for Conflict for the Low Relationship Quality Group
 
 pdf(file="lrq-conflict-time.pdf", width=15, height=8)
 par(mfrow=c(4,8))
@@ -85,7 +85,7 @@ for (i in process$id[process$time==0 & process$relqual==0]){
 mtext("Low Relationship Quality", side=3, outer=TRUE, line=-1.2)
 dev.off()
 
-#Figure 5.2: Time Course Plots for Conflict for the High Relationship Quality Group
+# Time Course Plots for Conflict for the High Relationship Quality Group
 
 pdf(file="hrq-conflict-time.pdf", width=15, height=10)
 par(mfrow=c(5,8))
@@ -183,7 +183,7 @@ ordcfs<-cfs[order(cfs$relqual, cfs$slope, cfs$id),]
 
 ############################################################################################################
 
-#Figure 5.4: Intimacy as a Function of Conflict: Raw Data and Model Predictions for the Low Relationship Quality Group
+#Intimacy as a Function of Conflict: Raw Data and Model Predictions for the Low Relationship Quality Group
 #Note: Confidence Bounds for Predictions are not Available for lme() models
 
 pdf(file="lrq-pred-panels.pdf", width=14, height=8)
@@ -199,7 +199,7 @@ mtext("Low Relationship Quality", side=3, outer=TRUE, line=-1.2)
 dev.off()
 
 
-#Figure 5.4: Intimacy as a Function of Conflict: Raw Data and Model Predictions for the High Relationship Quality Group
+#Intimacy as a Function of Conflict: Raw Data and Model Predictions for the High Relationship Quality Group
 #Note: Confidence Bounds for Predictions are not Available for lme() models
 
 pdf(file="hrq-pred-panels.pdf", width=14, height=10)
@@ -218,7 +218,7 @@ dev.off()
 
 ############################################################################################################
 
-#Figure 5.5: Spaghetti Plots for Low and High Relationship Quality Groups
+#Spaghetti Plots for Low and High Relationship Quality Groups
 
 pdf(file="spag.pdf", width=14, height=10)
 par(mfcol=c(1,2))
@@ -256,7 +256,7 @@ quantile(cfs$slope[cfs$relqual==0], c(0.0, .05, .25, .50, .75, .95, 1.0))
 
 ############################################################################################################
 
-#Figure 2 of example write-up for Chapter 5: Panel plots for five selected IDs in Low RQ Group
+#Panel plots for five selected IDs in Low RQ Group
 #Note: In order to match the book, ID=48 is chosen for the 5th percentile, whereas the more correct
 #choice would have been ID=45. Similarly ID=65 is chosen over ID=47 for the 50th percentile.
 
@@ -283,7 +283,7 @@ quantile(cfs$slope[cfs$relqual==1], c(0.0, .05, .25, .50, .75, .95, 1.0))
 
 ############################################################################################################
 
-#Figure 2 of example write-up for Chapter 5: Panel plots for five selected IDs in High Relationship Quality Group
+#Panel plots for five selected IDs in High Relationship Quality Group
 #Note: In order to match the book, ID=11 is chosen for the 5th percentile, whereas the more correct
 #choice would have been ID=59. Similarly ID=14 is chosen over ID=64 for the 50th percentile. Finally, ID=50 is
 #chosen over ID=24 for the 75th percentile.
