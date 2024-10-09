@@ -21,10 +21,10 @@ Figure: Time Course Plots for **Conflict** for the *High* Relationship Quality G
 ## Part 2: 
 
 Intimacy as a Function of Conflict: Raw Data and Model Predictions for the *Low* Relationship Quality Group
-![LRQ Pred Panel](https://github.com/matt-j-murphy/DyadicData/blob/861b4b3a94d77dbfaf2f5a0c3e991f8ab95d61ca/lqr-pred-panel.png)
+![LRQ Pred Panel](https://github.com/matt-j-murphy/DyadicData/blob/861b4b3a94d77dbfaf2f5a0c3e991f8ab95d61ca/lqr-pred-panel.png) 
 
 Intimacy as a Function of Conflict: Raw Data and Model Predictions for the *High* Relationship Quality Group
-![HRQ Pred Panel](https://github.com/matt-j-murphy/DyadicData/blob/861b4b3a94d77dbfaf2f5a0c3e991f8ab95d61ca/hqr-pred-panel.png)
+![HRQ Pred Panel](https://github.com/matt-j-murphy/DyadicData/blob/861b4b3a94d77dbfaf2f5a0c3e991f8ab95d61ca/hqr-pred-panel.png) 
 
 Spaghetti Plots for Low and High Relationship Quality Groups
 
