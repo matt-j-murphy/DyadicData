@@ -15,6 +15,11 @@ Variables
 * `conflict`: Daily conflict (0=no, 1=yes)
 * `relqual`: Relationship quality (0=low, 1=high RQ)
 
+Notes: 
+* Daily `intimacy` (outcome) has both within-person and between-person variability
+* Daily `conflict` (predictor) also has both within-person and between-person variability
+* Controlling for mean conflict allows for a pure within-person interpretation of the effect of daily conflict on daily intimacy
+  
 ## Part 1
 
 ### Time Course Plots for **Intimacy** for the *Low* Relationship Quality Group
