@@ -15,9 +15,13 @@ Variables
 * `conflict`: Daily conflict (0=no, 1=yes)
 * `relqual`: Relationship quality (0=low, 1=high RQ)
 
+
 Notes: 
+* Need to separate within-person and between-person effects of longitudinal predictors
 * Daily `intimacy` (outcome) has both within-person and between-person variability
 * Daily `conflict` (predictor) also has both within-person and between-person variability
+  * `conflcb`: Daily conflict (between) – centred at grand mean
+  * `conflcw`: Daily conflict (within) – centred at person mean
 * Controlling for mean conflict allows for a pure within-person interpretation of the effect of daily conflict on daily intimacy
   
 ## Part 1
