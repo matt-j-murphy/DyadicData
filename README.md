@@ -31,5 +31,5 @@ Spaghetti Plots for Low and High Relationship Quality Groups
 Panel plots for five selected IDs in **Low** RQ Group
 
 Panel plots for five selected IDs in **High** RQ Group
-hqr-five.png
+!hqr-five.png
 
