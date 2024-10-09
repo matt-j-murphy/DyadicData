@@ -29,7 +29,8 @@ Spaghetti Plots for Low and High Relationship Quality Groups
 ## Part 3: 
 
 Panel plots for five selected IDs in **Low** RQ Group
+![LRQ Five](https://github.com/matt-j-murphy/DyadicData/blob/37675231372d0a9c15d7d660b69122cd9966280a/lrq-five.png)
 
 Panel plots for five selected IDs in **High** RQ Group
-![HQR Five](https://github.com/matt-j-murphy/DyadicData/blob/861b4b3a94d77dbfaf2f5a0c3e991f8ab95d61ca/hqr-five.png)
+![HRQ Five](https://github.com/matt-j-murphy/DyadicData/blob/861b4b3a94d77dbfaf2f5a0c3e991f8ab95d61ca/hqr-five.png)
 
